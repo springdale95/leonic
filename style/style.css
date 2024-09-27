@@ -27,7 +27,7 @@ img {
 body {
     min-width: 320px;
     word-break: normal;
-    font-family: 'OpenSans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* global */
@@ -85,3 +85,180 @@ body {
     width: 150px;
     height: 50px;
 }
+
+/* First Section -------------------------------------------------------- */
+
+.first-section {
+    width: 1540px;
+    height: 550px;
+    background-image: url(../img/main/first-section/first-section-bg.jpg);
+    margin: 0px auto;
+}
+
+.first-section-wrapper {
+    width: 529px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 115px;
+    margin-left: 185px;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.slogan {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.first-section-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    width: 470px;
+    line-height: 25px;
+    ;
+}
+
+.first-section-button {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #3172B9;
+    border-radius: 3px;
+    width: 250px;
+    height: 60px;
+}
+
+.secured-connection-wrapper {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secured-connection-span {
+    font-weight: 400;
+    font-size: 11px;
+    color: #787878;
+}
+
+.button-and-secure-wrapper {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Second Section -------------------------------------------------------- */
+
+.services-section {
+    width: 1170px;
+    height: 465px;
+    margin: 50px auto 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.services-title {
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+}
+
+.services-card {
+    width: 270px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #E4E4E4;
+}
+
+.title-of-services-cards {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.span-in-services-cards {
+    font-weight: 400;
+    font-size: 14px;
+    color: #787878;
+    text-align: center;
+    width: 210px;
+    line-height: 20px;
+}
+
+.services-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Third Section -------------------------------------------------------- */
+
+.articles-section {
+    width: 1170px;
+    height: 570px;
+    margin: 160px auto 0px;
+}
+
+.articles-title {
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.articles-cards-wrapper {
+    width: 1170px;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.articles-cards {
+    width: 570px;
+    height: 180px;
+    border: 1px solid #E4E4E4;
+    display: flex;
+}
+
+.text-in-cards-wrapper {
+    width: 215px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.time-in-articles {
+    font-size: 10px;
+    font-weight: 400;
+    color: #787878;
+}
+
+.title-of-articles-cards {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.span-in-articles-cards {
+    font-size: 14px;
+    font-weight: 400;
+    color: #787878;
+}
+
