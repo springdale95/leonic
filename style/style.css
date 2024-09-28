@@ -369,3 +369,54 @@ body {
     color: #787878;
     line-height: 25px;
 }
+
+/* footer -------------------------------------------------------- */
+
+.footer {
+    border-top: 1px solid #C4C4C4;
+}
+
+.footer-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer-span {
+    font-weight: 400;
+    font-size: 12px;
+    color: #787878;
+}
+
+.footer-nav {
+    
+}
+
+.footer-list {
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    color: #787878;
+}
+
+.footer-list-link {
+
+}
+
+.footer-list-element {
+    padding: 0px 30px;
+}
+
+.right-side-wrapper {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+}
