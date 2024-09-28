@@ -326,3 +326,46 @@ body {
     font-size: 14px;
     color: #787878;
 }
+
+/* Fifth Section -------------------------------------------------------- */
+
+.contacts-section {
+    width: 1170px;
+    height: 480px;
+    margin: 160px auto 0px;
+}
+
+.contacts-title {
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.contacts-wrapper {
+    width: 1170px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-cards {
+    width: 215px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-right: 175px;
+}
+
+.types-of-contacts {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.span-in-contacts-cards {
+    font-weight: 400;
+    font-size: 14px;
+    color: #787878;
+    line-height: 25px;
+}
