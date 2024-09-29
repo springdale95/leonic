@@ -1,11 +1,11 @@
 html {
-    box-sizing: border-box; /* padding и border включены в width и height. Не надо думать о размере контейнера */
+    box-sizing: border-box;                 /* padding и border включены в width и height. Не надо думать о размере контейнера */
 }
 
 *,
-*::before,
+*::before,                                  /*Изучить*/
 *::after {
-    box-sizing: inherit; /* inherit - наследовать */
+    box-sizing: inherit;                    /* inherit - наследовать */
 }
 
 p,h1,h2,h3,h4,h5,h6 {
@@ -54,20 +54,17 @@ body {
 .header-wrapper {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 35px 0;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo-link {
-    margin-right: 50px;
-}
-
 .header-list {
-    width: 600px;
+    width: 750px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 50px;
 }
 
 .header-list-link {
@@ -95,20 +92,26 @@ body {
     margin: 0px auto;
 }
 
+.first-section-wrapper-location{
+    width: 1170px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .first-section-wrapper {
     width: 529px;
-    height: 415px;
     display: flex;
     flex-direction: column;
-    padding-top: 115px;
-    margin-left: 185px;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .slogan {
     font-size: 40px;
     font-weight: 300;
+    line-height: 52px;
 }
 
 .first-section-paragraph {
@@ -117,6 +120,7 @@ body {
     color: #787878;
     width: 470px;
     line-height: 25px;
+    padding: 25px 0 35px;
     ;
 }
 
@@ -154,12 +158,10 @@ body {
 /* Second Section -------------------------------------------------------- */
 
 .services-section {
-    width: 1170px;
-    height: 465px;
-    margin: 50px auto 0px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    padding-top: 90px;
+    padding-bottom: 160px;
+    justify-content: center;
 }
 
 .services-title {
@@ -174,13 +176,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     border: 1px solid #E4E4E4;
+    border-radius: 5px;
 }
 
 .title-of-services-cards {
     font-weight: 600;
     font-size: 20px;
+    padding: 30px 0 15px;
 }
 
 .span-in-services-cards {
@@ -195,6 +199,7 @@ body {
 .services-cards-wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .second-section-paragraph {
@@ -202,15 +207,17 @@ body {
     font-weight: 400;
     color: #787878;
     text-align: center;
-    margin-bottom: 30px;
+    padding: 20px 0 55px;
 }
 
 /* Third Section -------------------------------------------------------- */
 
 .articles-section {
-    width: 1170px;
-    height: 570px;
-    margin: 160px auto 0px;
+    border-top: 1px solid #E4E4E4;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 160px;
+    justify-content: center;
 }
 
 .articles-title {
@@ -232,42 +239,52 @@ body {
     height: 180px;
     border: 1px solid #E4E4E4;
     display: flex;
+    border-radius: 5px;
+}
+
+.articles-img {                     /* прямоугольное фото в квадратное */
+    width: 170px;
+    height: 178px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .text-in-cards-wrapper {
     width: 215px;
-    height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     margin-left: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .time-in-articles {
     font-size: 10px;
     font-weight: 400;
     color: #787878;
+    padding-top: 25px;
 }
 
 .title-of-articles-cards {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
+    line-height: 26px;
+    padding-bottom: 15px;
 }
 
 .span-in-articles-cards {
     font-size: 14px;
     font-weight: 400;
     color: #787878;
+    line-height: 21px;
 }
 
 /* Fourth Section -------------------------------------------------------- */
 
 .clients-section {
-    width: 1170px;
-    height: 460px;
-    margin: 160px auto 0px;
+    border-top: 1px solid #E4E4E4;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 160px;
+    justify-content: center;
 }
 
 .clients-title {
@@ -291,6 +308,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
 .clients-feedback {
@@ -327,12 +345,19 @@ body {
     color: #787878;
 }
 
+.clients-img {                     /* прямоугольное фото в квадратное */
+    border-radius: 45px;
+    width: 67px;
+    height: 67px;
+}
 /* Fifth Section -------------------------------------------------------- */
 
 .contacts-section {
-    width: 1170px;
-    height: 480px;
-    margin: 160px auto 0px;
+    border-top: 1px solid #E4E4E4;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 160px;
+    justify-content: center;
 }
 
 .contacts-title {
@@ -388,6 +413,7 @@ body {
 .left-side-wrapper {
     display: flex;
     align-items: center;
+    gap: 25px;
 }
 
 .footer-span {
@@ -396,23 +422,17 @@ body {
     color: #787878;
 }
 
-.footer-nav {
-    
-}
-
 .footer-list {
     display: flex;
-    font-weight: 600;
-    font-size: 15px;
-    color: #787878;
+    width: 600px;
+    gap: 30px;
+    justify-content: flex-end;
 }
 
 .footer-list-link {
-
-}
-
-.footer-list-element {
-    padding: 0px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #787878;
 }
 
 .right-side-wrapper {
