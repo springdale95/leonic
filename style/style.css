@@ -93,7 +93,7 @@ body {
 }
 
 .first-section-wrapper-location{
-    width: 1170px;
+    width: 895px;
     height: 550px;
     display: flex;
     justify-content: center;
@@ -237,20 +237,24 @@ body {
 .articles-cards {
     width: 570px;
     height: 180px;
-    border: 1px solid #E4E4E4;
+    border-top: 1px solid #E4E4E4;
+    border-right: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
     display: flex;
     border-radius: 5px;
+    align-items: center;
 }
 
 .articles-img {                     /* прямоугольное фото в квадратное */
     width: 170px;
-    height: 178px;
+    height: 180px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 .text-in-cards-wrapper {
     width: 215px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     margin-left: 30px;
@@ -260,7 +264,6 @@ body {
     font-size: 10px;
     font-weight: 400;
     color: #787878;
-    padding-top: 25px;
 }
 
 .title-of-articles-cards {
@@ -306,18 +309,18 @@ body {
     border: 1px solid #E4E4E4;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border-radius: 5px;
+    justify-content: flex-end;
 }
 
 .clients-feedback {
     width: 281px;
-    height: 185px;
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
     color: #787878;
+    padding-bottom: 30px;
 }
 
 .clients-decor-wrapper {
@@ -325,7 +328,7 @@ body {
     align-items: center;
     width: 281px;
     border-top: 1px solid #E4E4E4;
-    padding-top: 20px;
+    padding: 30px 0 30px;
 }
 
 .name-decor-wrapper {
@@ -347,9 +350,12 @@ body {
 
 .clients-img {                     /* прямоугольное фото в квадратное */
     border-radius: 45px;
+    border: 2px solid #3172B9;
     width: 67px;
     height: 67px;
 }
+
+
 /* Fifth Section -------------------------------------------------------- */
 
 .contacts-section {
